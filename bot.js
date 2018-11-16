@@ -11,6 +11,9 @@ client.on('message', message => {
   	}
 });
 
+client.on('ready', () => {
+client.user.setGame(``,'https://www.twitch.tv/v5bz'); 
+}); 
 
 client.on('ready', async() => {
 var server = "513004357223055361"; // ايدي السررفر
