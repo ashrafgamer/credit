@@ -22,7 +22,7 @@ var channel = "513004416555679757";//ايدي الروم
 
 
 const killer = "@";
-const fox = ['id'];
+const fox = ['361812760050532352'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!fox.includes(message.author.id)) return;
