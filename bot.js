@@ -16,8 +16,8 @@ client.user.setGame(``,'https://www.twitch.tv/v5bz');
 }); 
 
 client.on('ready', async() => {
-var server = "513004357223055361"; // ايدي السررفر
-var channel = "513004416555679757";//ايدي الروم
+var server = "514044187344109569"; // ايدي السررفر
+var channel = "514044229941723139";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , **')
     },305);
